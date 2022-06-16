@@ -16,6 +16,7 @@ import (
 // @securityDefinitions.apikey Bearer
 // @in header
 // @name Authorization
+//	./go-admin server -c config/settings.dev.yml
 func main() {
 	cmd.Execute()
 }
