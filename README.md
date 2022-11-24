@@ -10,9 +10,9 @@
 
 English | [简体中文](https://github.com/go-admin-team/go-admin/blob/master/README.Zh-cn.md)
 
-The front-end and back-end separation authority management system based on Gin + Vue + Element UI is extremely simple to initialize the system. You only need to modify the database connection in the configuration file. The system supports multi-instruction operations. Migration instructions can make it easier to initialize database information. Service instructions It's easy to start the api service.
+The front-end and back-end separation authority management system based on Gin + Vue + Element UI OR Arco Design is extremely simple to initialize the system. You only need to modify the database connection in the configuration file. The system supports multi-instruction operations. Migration instructions can make it easier to initialize database information. Service instructions It's easy to start the api service.
 
-[documentation](https://doc.go-admin.dev)
+[documentation](https://www.go-admin.dev)
 
 [Front-end project](https://github.com/go-admin-team/go-admin-ui)
 
@@ -20,10 +20,13 @@ The front-end and back-end separation authority management system based on Gin +
 
 ## 🎬 Online Demo
 
-vue demo：[https://www.go-admin.dev](https://www.go-admin.dev/#/login)
+Element UI vue demo：[https://vue2.go-admin.dev](https://vue2.go-admin.dev/#/login)
 > 账号 / 密码： admin / 123456
 
-antd demo：[https://preview.go-admin.dev](https://preview.go-admin.dev/)
+Arco Design vue3 demo：[https://vue3.go-admin.dev](https://vue3.go-admin.dev/#/login)
+> 账号 / 密码： admin / 123456
+
+antd demo：[https://antd.go-admin.pro](https://antd.go-admin.pro/)
 > 账号 / 密码： admin / 123456
 > 
 ## ✨ Feature
@@ -139,6 +142,9 @@ git clone https://github.com/go-admin-team/go-admin-ui.git
 ```bash
 # Enter the go-admin backend project
 cd ./go-admin
+
+# Update dependencies
+go mod tidy
 
 # Compile the project
 go build
@@ -287,6 +293,8 @@ npm run dev
 " ><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/23476007?s=60&v=4&w=60&fit=cover&mask=circle&maxage=7d" /></a></span>
 <span style="margin: 0 5px;" ><a href="https://github.com/jfcg
 " ><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/1410597?s=60&v=4&w=60&fit=cover&mask=circle&maxage=7d" /></a></span>
+<span style="margin: 0 5px;" ><a href="https://github.com/Nicole0724
+" ><img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/10487328?s=60&v=4&w=60&fit=cover&mask=circle&maxage=7d" /></a></span>
 
 
 
@@ -301,6 +309,8 @@ The `go-admin` project has always been developed in the GoLand integrated develo
 
 1. [ant-design](https://github.com/ant-design/ant-design)
 2. [ant-design-pro](https://github.com/ant-design/ant-design-pro)
+2. [arco-design](https://github.com/arco-design/arco-design)
+2. [arco-design-pro](https://github.com/arco-design/arco-design-pro)
 2. [gin](https://github.com/gin-gonic/gin)
 2. [casbin](https://github.com/casbin/casbin)
 2. [spf13/viper](https://github.com/spf13/viper)
