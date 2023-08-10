@@ -151,14 +151,14 @@ go build
 
 # Change setting 
 # File path go-admin/config/settings.yml
-vi ./config/setting.yml 
+vi ./config/settings.yml
 
 # 1. Modify the database information in the configuration file
 # Note: The corresponding configuration data under settings.database
 # 2. Confirm the log path
 ```
 
-:::tip ⚠️Note that this problem will occur if CGO is not installed in the windows environment;
+:::tip ⚠️Note that this problem will occur if CGO is not installed in the windows10+ environment;
 
 ```bash
 E:\go-admin>go build
